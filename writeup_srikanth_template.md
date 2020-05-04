@@ -9,13 +9,6 @@ The goals / steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * Summarize the results with a written report
 
-
-[//]: # (Image References)
-
-[image3]: ./output_images/recovery/center_2020_04_27_16_50_09_336.jpg "Recovery Image"
-[image4]: ./output_images/recovery/center_2020_04_27_16_50_09_450 "Recovery Image"
-[image5]: ./output_images/recovery/center_2020_04_27_16_50_09_568.jpg "Recovery Image"
-
 ## Rubric Points
 #### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
@@ -199,12 +192,16 @@ count = len(driving_log)
 ```
 2. **Flipping Data :** To further augment the data , I flipped images and angles thinking that this would increase the data available for training as well as help in balancing the right vs the left steering angles in the sample.
 
-<table>
-<tbody>
+
+<table border=2>
 <tr>
-<td> Actual Iamge <img src="output_images/flips/normal_image.jpg">
-<td> Flipped Image <img src="output_images/flips/flip_image.jpg">
-</tbody>
+<td> Actual Iamge</td> 
+<td> Flipped Image</td>
+</tr>
+<tr>
+<td> <img src="output_images/flips/normal_image.jpg"></td>
+<td> <img src="output_images/flips/flip_image.jpg"></td>
+</tr>
 </table>
 
 ``` python

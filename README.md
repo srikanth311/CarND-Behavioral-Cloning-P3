@@ -2,6 +2,8 @@
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+# [Check writeup_srikanth_template.md for complete step by step process.](https://github.com/srikanth311/CarND-Behavioral-Cloning-P3/blob/master/writeup_srikanth_template.md)
+
 Overview
 ---
 This repository contains starting files for the Behavioral Cloning Project.
